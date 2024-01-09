@@ -7,6 +7,7 @@ const About: React.FC = () => {
       <div className={s.aboutContent}>
         <h1 className={s.aboutHeader}>John Doe</h1>
         <div className={s.aboutDescription}>
+          <textarea>
           <p>
             Hello! I'm a passionate coder with experience in web development. I love building
             interactive and user-friendly websites that deliver exceptional experiences to users.
@@ -21,9 +22,10 @@ const About: React.FC = () => {
             up on the latest tech trends. Feel free to reach out to me for any inquiries or
             collaboration opportunities!
           </p>
+          </textarea>
         </div>
       </div>
-      <div className={s.aboutImage}></div>
+     
     </div>
   );
 };

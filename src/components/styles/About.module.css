@@ -23,6 +23,7 @@
   .aboutDescription {
     line-height: 1.5;
     color: #000000;
+    margin-top: 40px;
    
   }
   
@@ -30,6 +31,20 @@
     height: 18vh;
     border-radius: 50% ;
   }
+
+
+  @media only screen and (min-width: 375px) {
+    .aboutContainer {
+      flex-direction: column;
+      margin-top: -60px;
+      
+    }
+    .aboutDescription {
+      overflow: scroll;
+      height: 280px;
+      
+    }
+    }
   
   @media (max-width: 768px) {
     .aboutContainer {
@@ -42,3 +57,4 @@
       margin-left: 0;
     }
   }
+

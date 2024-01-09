@@ -17,6 +17,7 @@ function App() {
         <Element name="about" className="section">
           <div className={s.aboutContainer}>
       <div className={s.aboutContent}>
+      <img className={s.aboutImage} /* style={{height:'18vh', width:'18vh',borderRadius:'50%'}} */ src={`${profilePic}`}/>
         <h1 className={s.aboutHeader}>Ariel Cunha</h1>
         
         <div className={s.aboutDescription}>
@@ -36,7 +37,7 @@ function App() {
           </p>
           
         </div>
-        <img className={s.aboutImage} /* style={{height:'18vh', width:'18vh',borderRadius:'50%'}} */ src={`${profilePic}`}/>
+        
         
       </div>
       
