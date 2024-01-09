@@ -1,0 +1,44 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #2d3436;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s ease;
+    z-index: 9999;
+  }
+  
+  .navbarLogo {
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .navbarLinks {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbarLink {
+    cursor: pointer;
+    color: #ffffff;
+  }
+  
+  .navbarHidden {
+    transform: translateY(-100%);
+  }
+  
+  @media (min-width: 768px) {
+    /* Styles for tablets and larger screens */
+    .navbar {
+      padding: 20px;
+    }
+  
+    .navbarLinks {
+      gap: 30px;
+    }
+  }
